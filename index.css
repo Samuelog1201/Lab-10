@@ -1,0 +1,343 @@
+#container,
+#container2 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+
+    background-color: transparent;
+    justify-content: space-between;
+    width: 99%;
+    top: 0;
+
+}
+
+.caja {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    justify-content: space-evenly;
+    padding: 0;
+    border: 0;
+}
+
+.cajaa{
+    
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lineas{
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent
+    
+}
+
+.botonrayas {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.usuario {
+    
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent
+}
+
+.botonuser {
+    
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10px;
+}
+
+.menu {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+.principal{
+    position: relative;
+
+}
+
+.peli {
+    margin: 5px;
+    height: 380px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoo {
+    height: 600px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+
+.interior {
+ 
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+
+.titulolulu {
+   
+    flex-direction: row;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    height: 60px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+h4 {
+    font-size: 20px;
+    background-color: transparent;
+    margin: 10px;
+
+}
+
+h5{
+
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.contenido {
+    
+    margin: 0;
+    line-height: 0;
+}
+
+.btn{
+    width: 260px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoncitoplay{
+    display: flex;
+    background-color: rgb(97, 58, 130);
+    border-color: rgb(109, 109, 109);
+    color: white;
+    width: 110px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-right: 18px;
+    text-decoration: none;
+}
+
+
+.botoncitosave{
+    display: flex;
+    border-color: rgb(109, 109, 109);
+    background-color: transparent;
+    color: white;
+    width: 120px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 18px;
+    font-size: 25px;
+    text-decoration-color: transparent;
+}
+
+a:visited, a:link {
+    text-decoration-color: transparent;
+}
+
+.play {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.save {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+.abajo {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll {
+    width: 99%;
+    height: 410px;
+	overflow: auto;
+	background-color: transparent;
+	padding: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+.recom {
+
+    background-color: transparent;
+    height: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    font-size: 30px;
+}
+
+.peli {
+    background-color: transparent;
+    margin: 5px;
+    height: 380px;
+    width: 260px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.portada {
+    height: 340px;
+    width: 230PX;
+    margin: 0px;
+    border-radius: 15px;
+}
+
+.adentro {
+    background-color: transparent;
+    height: 40px;
+    width: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.calif {
+    height: 50px;
+    width: 235px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+
+.rtn {
+    width: 75px;
+}
+
+h2 {
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+}
+.estrellitas {
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star {
+    height: 20px;
+}
+
+.grd {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: 0;
+}
+
+.gurd {
+    margin-right: 5px;
+    height: 25px;
+    width: 35px;
+}
+
+
+.espacio {
+    height: 80px;
+}
